@@ -4,10 +4,11 @@ I have successfully completed a 320-hour Front-End Development Internship at ASA
 
 
 ## Albums Task5
-a Responsive React application that consumes the JSONPlaceholder Albums API (https://jsonplaceholder.typicode.com/albums). The application consists of three pages: a main page with infinite scrolling functionality, a search bar for filtering albums by title, and the ability to redirect to individual album pages (/albums/{albumId}). Additionally, there is an album page that displays all album images using infinite scrolling and a 404 page for non-existing album IDs. I followed the requirement of not using any CSS libraries and ensured full responsiveness across various devices. Axios was used to fetch data from the API. This project demonstrates my proficiency in consuming APIs, implementing infinite scrolling, handling routes, and creating responsive React applications.
+Responsive React application that consumes the JSONPlaceholder Albums API (https://jsonplaceholder.typicode.com/albums). The application consists of three pages: a main page with infinite scrolling functionality, a search bar for filtering albums by title, and the ability to redirect to individual album pages (/albums/{albumId}). Additionally, there is an album page that displays all album images using infinite scrolling and a 404 page for non-existing album IDs. I followed the requirement of not using any CSS libraries and ensured full responsiveness across various devices. Axios was used to fetch data from the API. This project demonstrates my proficiency in consuming APIs, implementing infinite scrolling, handling routes, and creating responsive React applications.
 
 ### Deployment:
 https://bayankharosheh3.github.io/Albums/
+
 
 
 
@@ -19,11 +20,13 @@ https://bayankharosheh3.github.io/Albums/
 
 
 
+
 ## GulpJS Task4
 In this task, I create a responsive website. I designed and implemented four HTML pages with responsive styling using Bootstrap, ensuring optimal display on various devices. With the help of JavaScript, I achieved seamless page transitions, allowing users to navigate between pages without any interruptions. Furthermore, I implemented dynamic loading of HTML, CSS, and JS files based on the URL, resulting in improved performance by loading only the required resources. Leveraging Gulp.js, I automated the minification of HTML, CSS, and JS files, optimizing their sizes and enhancing the website's performance.
 
 ### Deployment:
 I encountered a problem during the deployment of the project, but I am going to fix it as soon as possible.In the meantime, you can review the code provided above to get an understanding of the work accomplished.
+
 
 
 
@@ -35,11 +38,13 @@ https://task3-training.netlify.app/
 
 
 
+
 ## XO Game 2 players - Task2
 This is a simple web-based XO game built using JavaScript, HTML, and CSS. It's designed for two players and is fully responsive. It can be played on desktop or mobile devices.
 
 ### Deployment:
 https://bayankharosheh3.github.io/XO/
+
 
 
 
