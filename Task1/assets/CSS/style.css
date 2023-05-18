@@ -1,0 +1,456 @@
+/* public style */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #222;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* #################################### */
+
+/* home page*/
+
+/* nav start */
+nav {
+  width: 100%;
+  position: relative;
+  box-shadow: 1px 1px 20px #535354;
+  position: sticky;
+  top: 0;
+  background-color: #222;
+  z-index: 88;
+}
+
+nav .nav-container {
+  width: 96.5%;
+  margin: auto;
+}
+
+nav .nav-container .nav-list .list {
+  display: flex;
+  justify-content: center;
+}
+
+nav .nav-container .nav-list .list .nav-item {
+  padding: 25px 20px;
+}
+
+nav .nav-container .nav-list .list .nav-item .active {
+  color: #ff2020 !important;
+}
+nav .nav-container .nav-list .list .nav-item .nav-link {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.5s;
+}
+
+nav .nav-container .nav-list .list .nav-item:hover .nav-link {
+  color: #ff2020;
+}
+
+/* nav end */
+
+/* header start */
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/1710796.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 34, 34, 0.6);
+}
+header .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+header .header-content {
+  width: 65%;
+}
+
+header .header-content .header-title {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ff2020;
+  margin-bottom: 26px;
+  animation-name: contentLeft;
+  animation-duration: 2s;
+}
+
+header .header-content .header-para {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5%;
+  animation-name: contentLeft;
+  animation-duration: 2s;
+}
+
+header .header-content .btn {
+  animation-name: contentLeft;
+  animation-duration: 1s;
+}
+
+@keyframes contentLeft {
+  0% {
+    transform: translate(-100%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
+
+.btn {
+  padding: 18px 30px;
+  background-color: #222;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+  border: 1px #ff2020 solid;
+}
+
+.btn::before {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff2020;
+  transition: width 0.5s;
+  z-index: -1;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
+
+/* header end */
+
+/* #################################### */
+
+/* me page */
+
+/* header start*/
+.me {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.me .header-content {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+.me .header-para {
+  width: 100%;
+  text-align: center;
+}
+/* header end */
+
+/* skills start */
+.skills-sec {
+  border-top: #ff20204e 1px solid;
+}
+.skills-sec .container {
+  padding-top: 10%;
+  padding-bottom: 25%;
+}
+
+.skills-sec .skills-title {
+  color: #ff2020;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 60px;
+}
+
+.skills-sec .row {
+  gap: 3%;
+}
+
+.skills-sec .skills-box {
+  margin-bottom: 20px;
+  width: 30%;
+  height: 300px;
+}
+
+.skills-sec .skills-box .box-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-sec .skills-box .box-img {
+  overflow: hidden;
+  width: 100%;
+  border: #ff2020 2px solid;
+}
+
+.skills-sec .skills-box img {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.skills-sec .skills-box:hover img {
+  transform: scale(1.1);
+}
+
+.skills-sec .skills-box .box-details .box-name {
+  color: #ff2020;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* skills end */
+
+/* schedule start*/
+
+.schedule {
+  padding: 130px 0px;
+  background-color: #fff;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 80%;
+}
+
+table caption {
+  font-size: 50px;
+  color: #ff2020;
+  margin-bottom: 40px;
+}
+table th {
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #ff2020;
+  padding: 10px 15px;
+  border-radius: 4%;
+}
+
+table td {
+  padding: 10px 15px;
+  border: #ff2020 1px solid;
+}
+/* schedule end */
+
+/*  */
+
+/* university page start */
+.uni {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/R.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.uni .container,
+.city .container {
+  justify-content: center;
+}
+
+.uni .header-content,
+.city .header-content {
+  width: 100%;
+}
+
+/* about start */
+.about-sec {
+  border-top: #ff20204e 1px solid;
+  border-bottom: #ff20204e 1px solid;
+  padding-top: 5%;
+}
+
+.about-sec .about-content {
+  width: 40%;
+  margin-bottom: 10%;
+}
+
+.about-sec .about-img {
+  width: 55%;
+  margin-bottom: 10%;
+}
+
+.about-sec .about-img img {
+  width: 70%;
+}
+
+.about-sec .about-content .about-title {
+  color: #ff2020;
+  margin-bottom: 40px;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.about-sec .about-content .about-para {
+  margin-bottom: 50px;
+  font-size: 17px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+/* about end */
+
+/* faculties start*/
+
+.faculties-sec {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.faculties-sec .title {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.faculties-sec .title .faculties-title {
+  color: #ff2020;
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.faculties-sec .title .faculties-para {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+}
+
+.faculties-sec .faculties-items .row {
+  flex-wrap: wrap;
+}
+
+.faculties-sec .faculties-items .faculties-item {
+  width: 31%;
+  margin-bottom: 50px;
+}
+
+.faculties-sec .faculties-items .faculties-item .faculties-img {
+  position: relative;
+  margin-bottom: 20px;
+  border-bottom: #ff2020 3px solid;
+  overflow: hidden;
+}
+
+.faculties-sec .faculties-items .faculties-item .faculties-img img {
+  width: 100%;
+}
+
+.faculties-sec .faculties-items .faculties-item .faculties-caption {
+  width: 100%;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+
+.faculties-sec .faculties-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.faculties-sec .faculties-btn .btn {
+  display: block;
+  background-color: #ff2020;
+}
+
+/* faculties end */
+
+/* university page end */
+
+/* #################################### */
+
+/* city page  start*/
+
+/* header start */
+
+.city {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/Nablus_2013-e1448528649271-640x400.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* header end */
+
+/* map sec start */
+.map-sec {
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+}
+
+.map-sec iframe {
+  width: 100%;
+  height: 100%;
+}
+/* map sec end */
+
+/* city end  start*/

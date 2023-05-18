@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #222;
+  color: #dfe2e5;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.container {
+  width: 80%;
+  /* height: 100vh; */
+  margin: auto;
+}
+
+form {
+  width: 40%;
+}
+
+.desc {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Satisfy", cursive;
+  font-size: 45px;
+  color: #7bc89c;
+}
+
+.inputLabel {
+  margin-bottom: 8px;
+  width: 50%;
+}
+
+.inputContent {
+  margin: 8px 0px 8px 0px;
+  width: 100%;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  height: 40px;
+  font-weight: 400;
+  color: #495057;
+  background-color: #fff;
+  border: 2px solid #dfe2e5;
+  border-radius: 3px;
+}
+
+.profileContainer .inputContent {
+  background-color: #dfe2e5;
+}
+
+#errorFirstName,
+#errorLastName,
+#errorEmail,
+#errorPassword,
+#errorConfirmed,
+#errorAge,
+#error {
+  color: red;
+  margin-bottom: 8px;
+  visibility: hidden;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 12px;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 8px 16px;
+  text-align: center;
+  color: #fff;
+  background-color: #7bc89c;
+  border: 0;
+  border-radius: 7px;
+  height: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  cursor: pointer;
+}
+
+.moveTo {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.link {
+  color: #7bc89c;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+/*  */
+
+.profileContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.profileContainer .row {
+  width: 50%;
+}
+
+.valid:valid {
+  border-color: #08c158;
+}
+
+.inValid:valid {
+  border-color: red;
+}
+
+@media (max-width: 992px) {
+  form {
+    width: 70%;
+  }
+  .container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 565px) {
+  form {
+    width: 100%;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  * {
+    font-size: 14px;
+  }
+
+  .profileContainer {
+    width: 80%;
+  }
+  
+  .profileContainer .row {
+    width: 100%;
+  }
+  
+}

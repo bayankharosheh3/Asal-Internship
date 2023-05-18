@@ -1,0 +1,53 @@
+.cardContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.cardImg img {
+  width: 110px;
+}
+
+.id {
+  display: block;
+  color: white;
+  padding: 17px;
+  font-size: 20px;
+}
+
+.cardTitle {
+  color: white;
+}
+.desc {
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .cardImg img {
+    width: 100px;
+  }
+  .id {
+    font-size: 18px;
+  }
+  .cardTitle {
+    font-size: 18px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .id {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cardTitle {
+    font-size: 17px;
+  }
+  .cardImg img {
+    width: 90px;
+  }
+}

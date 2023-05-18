@@ -1,0 +1,19 @@
+.search-history {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    color: black;
+    padding: 10px;
+    left: 146px;
+    top: 21px;
+    position: absolute;
+    width: 30%;
+  }
+  
+  .search-history-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  

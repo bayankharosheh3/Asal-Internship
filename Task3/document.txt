@@ -1,0 +1,88 @@
+// log in page
+
+/*
+
+password
+email
+loggedIN
+
+
+checkLoggedIn(){
+    if user logged in turn to his profile
+}
+
+checkPasswordValidation(password){
+
+}
+
+checkEmailValidation(email){
+
+}
+
+login(){
+    if(checkPasswordValidation()&&checkEmailValidation()){
+        if(email and password == data in local storage){
+            go to profile
+        }
+    }
+}
+
+turnToRegister(){
+    when sign up btn is clicked
+}
+
+*/
+
+// sign up page
+
+/*
+
+checkPasswordValidation(password){
+
+}
+
+checkEmailValidation(email){
+
+}
+
+checkConfirmPassword(password){
+
+}
+
+checkIfAllFieldsAreFilled(){
+    
+} 
+
+signUp(){
+    if(checkPasswordValidation() && checkEmailValidation() && checkConfirmPassword()){
+        if(checkIfAllFieldsAreFilled()){
+            save data to local storage 
+        }
+    }
+}
+
+reset(){
+
+    make all the fields empty 
+}
+
+*/
+
+// profile
+
+/*
+
+displayData(){
+    get data from local storage 
+}
+
+
+editData(){
+    enable text fields 
+}
+
+saveData(){
+    checkValidation() 
+    and save data to local storage
+}
+*/

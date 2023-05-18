@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container col">
+        <form>
+          <div class="form">
+            <h1 class="desc">Sign In</h1>
+            <label class="inputLabel" htmlFor="inputEmail"> Email </label>
+            <input
+              class="inputContent"
+              id="inputEmail"
+              type="email"
+              placeholder="Enter Email"
+            />
+
+            <label class="inputLabel" htmlFor="inputPass"> Password </label>
+            <input
+              class="inputContent"
+              id="inputPass"
+              type="password"
+              placeholder="Enter Password"
+            />
+            <span class="error" id="error">incorrect Password or Email</span>
+            <button class="btn" type="submit" id="signInBtn">Sign In</button>
+            <div class="moveTo">
+              <span>Don't have an account?</span>
+              <a class="link" href="signUpPage.html"> Sign Up </a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="signInScript.js"></script>
+  </body>
+</html>
