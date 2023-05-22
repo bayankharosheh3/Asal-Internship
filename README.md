@@ -57,8 +57,7 @@ This is a simple web-based XO game built using JavaScript, HTML, and CSS. It's d
 https://github.com/bayankharosheh3/XO 
 
 ### Deployment:
-https://bayankharosheh3.github.io/XO/
-
+https://github.com/bayankharosheh3/XO-JS
 
 
 
