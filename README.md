@@ -54,7 +54,7 @@ https://task3-training.netlify.app/
 This is a simple web-based XO game built using JavaScript, HTML, and CSS. It's designed for two players and is fully responsive. It can be played on desktop or mobile devices.
 
 ### Repository
-https://github.com/bayankharosheh3/XO 
+https://bayankharosheh3.github.io/XO-JS/
 
 ### Deployment:
 https://github.com/bayankharosheh3/XO-JS
